@@ -31,7 +31,17 @@ This shell is what most users see — it is **not** a container in the
 Docker/Kubernetes sense, and it is **not** the VM boundary. 
 
 
-### Step by step explanation
+Before:
+<img width="1920" height="1080" alt="GeForceNOW_3nHQen5qHl" src="https://github.com/user-attachments/assets/692dcd76-e851-4ba7-b0c4-d2ec28b45cd6" />
+
+
+After:
+<img width="1920" height="1080" alt="GeForceNOW_brL4ac3OAH" src="https://github.com/user-attachments/assets/97790880-bcbb-426f-ab24-ce920cf327d7" />
+<img width="1920" height="1080" alt="GeForceNOW_zsZnsL5be5" src="https://github.com/user-attachments/assets/a2562ed2-be2d-495b-a9e2-bd7140a707d5" />
+
+
+
+## Step by step explanation
 
 Alliance partners are not supported. Only global GeForce NOW. Free tier is not supported. It is a **file-replacement trick** that abuses the
 writable surface I2P provides:
@@ -56,31 +66,6 @@ writable surface I2P provides:
    game, but the user lands on a **full Windows desktop** (taskbar, Start
    menu, desktop icons) running on NVIDIA's hardware. 
 
-**Example game paths for some working games (some may not work currently):**
-
-*Different Strokes - C:\Program Files (x86)\Steam\steamapps\common\Different Strokes\DifferentStrokes.exe
-Deep the Game - C:\Program Files (x86)\Steam\steamapps\common\Deep the Game\nw.exe
-Cubiscape 2 - C:\Program Files (x86)\Steam\steamapps\common\Cubiscape 2\Cubiscape 2.xe
-Color Connect - C:\Program Files (x86)\Steam\steamapps\common\Color Connect\Color Connect.exe
-Bloons Monkey City - C:\Program Files (x86)\Steam\steamapps\common\Bloons Monkey City\BTD5-Win.exe
-Twiggle’s Grove Demo - C:\Program Files (x86)\Steam\steamapps\common\Twiggle’s Grove Demo\Twiggle's Grove.exe
-THE KULKA Demo - C:\Program Files (x86)\Steam\steamapps\common\THE KULKA Demo\Kulka.exe
-THE IMPOSSIBLE Demo - C:\Program Files (x86)\Steam\steamapps\common\THE IMPOSSIBLE Demo\impossible.exe
-Space Invaders Extreme™ Demo - C:\Program Files (x86)\Steam\steamapps\common\Space Invaders Extrem Demo\SIE_DEMO.exe
-Shotgun Cop Man Demo - C:\Program Files (x86)\Steam\steamapps\common\Shotgun Cop Man Demo\Shotgun Cop Man Demo.exe
-OutWave Demo - C:\Program Files (x86)\Steam\steamapps\common\OutWave Demo\OutWave.exe
-Nodes Demo - C:\Program Files (x86)\Steam\steamapps\common\Nodes Demo\nodes-demo-edition\nodes-demo-edition.exe
-Dropt Demo - C:\Program Files (x86)\Steam\steamapps\common\Dropt Demo\Dropt Demo.exe
-cr4ckr - C:\Program Files (x86)\Steam\steamapps\common\cr4ckr\CutieCafe.Cr4ckr.exe*
-
-Before:
-<img width="1920" height="1080" alt="GeForceNOW_3nHQen5qHl" src="https://github.com/user-attachments/assets/692dcd76-e851-4ba7-b0c4-d2ec28b45cd6" />
-
-
-After:
-<img width="1920" height="1080" alt="GeForceNOW_brL4ac3OAH" src="https://github.com/user-attachments/assets/97790880-bcbb-426f-ab24-ce920cf327d7" />
-<img width="1920" height="1080" alt="GeForceNOW_zsZnsL5be5" src="https://github.com/user-attachments/assets/a2562ed2-be2d-495b-a9e2-bd7140a707d5" />
-
 
 
 
@@ -104,10 +89,8 @@ bypassed is the **launcher UI**, not the VM or the host.
 - **Paid tier only** — Requires an Performance (or higher) subscription with I2P support.
 - **Session-scoped** — The VM is wiped when the session ends. Persistent storage (paid add-on) can retain the modified files across sessions.
 - **Unprivileged** — No admin rights. Some system operations are blocked.
-- **Not universal** — Some users report GeForce NOW closing the session when
-  File Explorer is opened, or blocking third-party file downloads.
 - **ToS violation** — Account termination is a realistic risk.
-- **No confirmed NVIDIA fix** — As of mid-August 2026, NVIDIA had not
+- **No confirmed NVIDIA fix** — As of mid-October 2026, NVIDIA had not
   published a patch or official statement. 
 
 ## Why This Matters (Security Perspective)
@@ -144,15 +127,6 @@ These affect **AI/GPU workloads in cloud and on-premises container
 environments**, not GeForce NOW. The GeForce NOW desktop bypass is a
 **different class of issue** — a ToS/UX bypass, not a security breach.
 
-## Timeline
-
-| Date | Event |
-|---|---|
-| ~Jul 31, 2026 | Zortos & dpadGuy publish walkthrough video |
-| Aug 1, 2026 | Tutorial posted on X (Twitter) |
-| Aug 3, 2026 | Zortos demonstrates LM Studio + Gemma 4 on the cloud desktop |
-| Aug 8–10, 2026 | Widespread media coverage (Tom's Hardware, TechSpot, VideoCardz, WccfTech, etc.) |
-| Aug 2026 | NVIDIA has **not** confirmed a fix or issued a statement |
 
 ## References
 
