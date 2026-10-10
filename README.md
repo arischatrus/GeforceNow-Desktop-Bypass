@@ -65,15 +65,15 @@ writable surface I2P provides:
 5. **Desktop access** — On the launch, Steam thinks it is starting the
    game, but the user lands on a **full Windows desktop** (taskbar, Start
    menu, desktop icons) running on NVIDIA's hardware. 
-
-
-
-
+‎ 
+‎
+‎ 
+‎ 
 **For easier guidance:**
 https://www.youtube.com/watch?v=L0bNUoGcYJY&t=5s
-
-
-
+‎ 
+‎ 
+‎ 
 
 ### What This Is NOT
 
