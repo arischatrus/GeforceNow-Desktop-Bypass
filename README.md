@@ -67,6 +67,8 @@ writable surface I2P provides:
    menu, desktop icons) running on NVIDIA's hardware. 
 
 
+**For easier guidance:**
+https://www.youtube.com/watch?v=L0bNUoGcYJY&t=5s
 
 
 ### What This Is NOT
