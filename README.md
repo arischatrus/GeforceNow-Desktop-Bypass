@@ -43,6 +43,10 @@ After:
 
 ## Step by step explanation
 
+
+**For easier guidance:**
+https://www.youtube.com/watch?v=L0bNUoGcYJY&t=5s
+
 Alliance partners are not supported. Only global GeForce NOW. Free tier is not supported. It is a **file-replacement trick** that abuses the
 writable surface I2P provides:
 
@@ -65,15 +69,15 @@ writable surface I2P provides:
 5. **Desktop access** — On the launch, Steam thinks it is starting the
    game, but the user lands on a **full Windows desktop** (taskbar, Start
    menu, desktop icons) running on NVIDIA's hardware. 
-‎ 
 ‎
-‎ 
-‎ 
+‎
+
+
+‎
 **For easier guidance:**
 https://www.youtube.com/watch?v=L0bNUoGcYJY&t=5s
-‎ 
-‎ 
-‎ 
+‎
+
 
 ### What This Is NOT
 
