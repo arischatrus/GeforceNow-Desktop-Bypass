@@ -2,8 +2,7 @@
 
 > **Disclaimer:** This document is for **educational and research purposes only**.
 > The technique described is a **violation of NVIDIA's Terms of Service** and
-> carries a risk of account termination. It is **not** a security vulnerability
-> nor it contains any lateral movement techniques. Do not use this information to abuse the service.
+> carries a risk of account termination. It is **not** a security vulnerability, nor does it contain any lateral movement techniques. Do not use this information to abuse the service.
 
 ## Summary
 
